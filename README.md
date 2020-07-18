@@ -7,7 +7,7 @@
 [![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
-> An extension of eslint-config-standard, made for JavaScript.
+> An extension of eslint-config-standard without peer dependencies, made for JavaScript.
 
 ## Installation
 
@@ -44,6 +44,10 @@ My idea is to ignore these problems 😅, and install these peer dependencies di
 Because I think these problems no longer exist in modern npm.
 
 So this module is just a dependencies wrapper, internal use of [eslint-config-standard](https://github.com/standard/eslint-config-standard) and its peer dependencies.
+
+## Related
+
+- [zce/eslint-config-standard-ts](https://github.com/zce/eslint-config-standard-ts) - An extension of eslint-config-standard without peer dependencies, made for TypeScript.
 
 ## Contributing
 
