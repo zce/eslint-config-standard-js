@@ -1,21 +1,21 @@
 {
-  "name": "eslint-config-standard-js",
+  "name": "eslint-config-standardx",
   "version": "14.1.1",
   "description": "An extension of eslint-config-standard, made for JavaScript.",
   "keywords": [
-    "eslint-config-standard-js",
+    "eslint-config-standardx",
     "eslint-config-standard",
     "standard",
     "eslint",
     "zce"
   ],
-  "homepage": "https://github.com/zce/eslint-config-standard-js#readme",
+  "homepage": "https://github.com/zce/eslint-config-standardx#readme",
   "bugs": {
-    "url": "https://github.com/zce/eslint-config-standard-js/issues"
+    "url": "https://github.com/zce/eslint-config-standardx/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zce/eslint-config-standard-js.git"
+    "url": "git+https://github.com/zce/eslint-config-standardx.git"
   },
   "license": "MIT",
   "author": {
@@ -23,7 +23,7 @@
     "email": "w@zce.me",
     "url": "https://zce.me"
   },
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "update": "npm i eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard",
     "prepare": "npm run update"

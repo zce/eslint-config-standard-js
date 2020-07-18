@@ -1,4 +1,4 @@
-# eslint-config-standard-js
+# eslint-config-standardx
 
 [![License][license-img]][license-url]
 [![NPM Downloads][downloads-img]][downloads-url]
@@ -12,24 +12,27 @@
 ## Installation
 
 ```shell
-$ npm install eslint eslint-config-standard-js --save-dev
+$ npm install eslint eslint-config-standardx --save-dev
 
 # or yarn
-$ yarn add eslint eslint-config-standard-js -dev
+$ yarn add eslint eslint-config-standardx -dev
 ```
 
 ## Usage
 
-in your eslint config
+In your eslint config:
 
 ```javascript
 // .eslintrc.js
 module.exports = {
-  extends: 'standard-js',
-  parserOptions: {
-    project: './tsconfig.json'
-  }
+  extends: 'standardx'
 }
+```
+
+Example command line usage for ESLint v7:
+
+```shell
+$ npx eslint .
 ```
 
 ## Motivation
@@ -59,15 +62,15 @@ So this module is just a dependencies wrapper, internal use of [eslint-config-st
 
 
 
-[license-img]: https://img.shields.io/github/license/zce/eslint-config-standard-js
-[license-url]: https://github.com/zce/eslint-config-standard-js/blob/master/LICENSE
-[downloads-img]: https://img.shields.io/npm/dm/eslint-config-standard-js
-[downloads-url]: https://npmjs.org/package/eslint-config-standard-js
-[version-img]: https://img.shields.io/npm/v/eslint-config-standard-js
-[version-url]: https://npmjs.org/package/eslint-config-standard-js
-[dependency-img]: https://img.shields.io/david/zce/eslint-config-standard-js
-[dependency-url]: https://david-dm.org/zce/eslint-config-standard-js
-[devdependency-img]: https://img.shields.io/david/dev/zce/eslint-config-standard-js
-[devdependency-url]: https://david-dm.org/zce/eslint-config-standard-js?type=dev
+[license-img]: https://img.shields.io/github/license/zce/eslint-config-standardx
+[license-url]: https://github.com/zce/eslint-config-standardx/blob/master/LICENSE
+[downloads-img]: https://img.shields.io/npm/dm/eslint-config-standardx
+[downloads-url]: https://npmjs.org/package/eslint-config-standardx
+[version-img]: https://img.shields.io/npm/v/eslint-config-standardx
+[version-url]: https://npmjs.org/package/eslint-config-standardx
+[dependency-img]: https://img.shields.io/david/zce/eslint-config-standardx
+[dependency-url]: https://david-dm.org/zce/eslint-config-standardx
+[devdependency-img]: https://img.shields.io/david/dev/zce/eslint-config-standardx
+[devdependency-url]: https://david-dm.org/zce/eslint-config-standardx?type=dev
 [style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
-[style-url]: https://standardjs.com
+[style-url]: https://standardx.com
