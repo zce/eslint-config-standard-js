@@ -14,7 +14,7 @@
   "author": "zce <w@zce.me> (https://zce.me)",
   "main": "index.js",
   "scripts": {
-    "update": "npm i eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard"
+    "update": "npm i eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise"
   },
   "renovate": {
     "extends": [
@@ -23,10 +23,9 @@
   },
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-promise": "^5.1.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
